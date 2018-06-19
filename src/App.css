@@ -1,0 +1,45 @@
+.app {
+  padding: 5px;
+  text-align: center;
+}
+
+.inner-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 500px;
+  padding-top: 15px;
+  width: 100%;
+}
+
+.select-list {
+  font-weight: bold;
+  padding: .4em;
+  outline: none;
+  border: 1px solid #dddddd;
+  border-radius: .5em;
+}
+
+.value-input {
+  margin-bottom: -1px;
+}
+
+.filed-control {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 auto;
+  width: 50%;
+}
+
+.filed-control__item {
+  border-radius: .5em;
+  border: 1px solid #dddddd;
+  outline: none;
+  padding: 0.3em;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.filed-control__item:focus {
+  border-color: #b8b8b8;
+}
